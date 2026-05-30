@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASU_Landing_page|LAUNCHPAD</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">LaunchPad.</a>
+            
+            <!-- Desktop Navigation -->
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            
+            <a href="#" class="btn-primary">Get Started</a>
+
+            <!-- Mobile Menu Button -->
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+
+        <!-- Mobile Dropdown Menu -->
+        <ul class="nav-mobile" id="nav-mobile">
+            <li><a href="#features">Features</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#" class="btn-primary">Get Started</a></li>
+        </ul>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Build something <span class="highlight">amazing</span> today.</h1>
+                <p>This is a clean, responsive landing-page as expected.
+                   Exploring and learning more.......!
+                </p>
+                <div class="hero-buttons"> 
+                    <a href="#" class="btn-primary">Start Building</a>
+                    <a href="#" class="btn-outline">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <i class="aeroplane"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h3>LaunchPad.</h3>
+                <p>Building the future, one line at a time.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                   
+    
+        <!-- Example: Replace # with https://twitter.com/yourusername -->
+        <a href="https://twitter.com/yourusername" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        
+        <!-- Example: Replace # with https://github.com/yourusername -->
+        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        
+        <!-- Example: Replace # with https://linkedin.com/in/yourusername -->
+        <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        
+        <!-- Example: Replace # with https://instagram.com/yourusername -->
+        <a href="https://instagram.com/yourusername" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    
+</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+       
+        </div>
+    </footer>
+
+    <script>
+        // Simple Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu');
+        const navMobile = document.getElementById('nav-mobile');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navMobile.classList.toggle('active');
+        });
+    </script>
+
+</body>
+</html>
